@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".SecondActivity"
+    tools:showIn="@layout/activity_second">
+
+    <LinearLayout
+        android:layout_width="374dp"
+        android:layout_height="484dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <EditText
+            android:id="@+id/SECOND_SCREEN_ID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="That's a second screen"
+            tools:layout_editor_absoluteX="66dp"
+            tools:layout_editor_absoluteY="296dp" />
+
+        <Button
+            android:id="@+id/BACK_TO_MAIN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Go Back"
+            tools:layout_editor_absoluteX="116dp"
+            tools:layout_editor_absoluteY="60dp" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
